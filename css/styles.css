@@ -1,6 +1,6 @@
-
 body {
   background-color: #EAF6F6;
+  font-family: 'Montserrat';
   font-size: 1rem;
   margin: 0;
   min-height: 100vh;
@@ -30,6 +30,7 @@ hr {
 }
 
 .intro-paragraph {
+  line-height: 1.5;
   width: 70%;
 }
 
@@ -46,7 +47,6 @@ hr {
 /* #skills, #certification, #work, #education, #list {
   padding-left: 50px;
 } */
-
 /* HEADER SECTION */
 .founder-intro {
   text-decoration: none;
@@ -54,19 +54,24 @@ hr {
 
 /* SKILLS SECTION */
 .skill-spacing {
-  padding: 0 30px 0 40px;
+  padding: 0 50px 0 20px;
 }
 
 /* CERTIFICATION SECTION */
+.cert-table-spacing {
+  padding: 0 20px 0 0;
+}
+
 .cert-spacing {
   padding-bottom: 5px;
 }
+
 .cert-ul {
   padding-left: 20px;
 }
 
 /* WORK SECTION */
-.table-cell-spacing {
+.work-table-spacing {
   padding: 0 20px 5px 0;
 }
 
@@ -79,12 +84,12 @@ hr {
 .list {
   padding-bottom: 5%;
 }
+
 .list-spacing {
   padding-bottom: 5px;
 }
 
 /* FOOTER SECTION */
-
 .footer {
   padding: 50px 0 30px;
   text-align: center;
