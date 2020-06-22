@@ -14,8 +14,12 @@ h1, h3, .hobby-numbers {
 
 hr {
   border-color: #a6dcef;
+  border-style: dotted none none;
+
+  /* OR the TWO follwoing configuratrion will do the same as the border style above
   border-style: none;
-  border-top-style: dotted;
+  border-top-style: dotted;*/
+
   border-width: 5px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -59,7 +63,7 @@ hr {
 
 /* CERTIFICATION SECTION */
 .cert-table-spacing {
-  padding: 0 20px 0 0;
+  padding: 0 40px 0 0;
 }
 
 .cert-spacing {
